@@ -15,7 +15,7 @@ Step 2:
 *  Select the number of quotes generated (between 1 and 5)
 *  Choose between 2 types of quote generators
 
-live view: https://petreasil.github.io/Project-5-OpenClassrooms/
+https://petreasil.github.io/Project-5-OpenClassrooms/
 
 
 
