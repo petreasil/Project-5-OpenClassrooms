@@ -1,0 +1,71 @@
+  <!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Quote Generator</title>
+    <meta name="description" content="random quote generator">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+		<header>
+		<div class="jumbotron">
+			<div id="logo">
+				<img id="logo2" src="img/yoda.png" class="rounded-circle" alt="yoda">
+			</div>
+			<h1 class="display-4 text-center">Yoda Quote Generator</h1>
+		<p class="lead text-center">Star Wars Legendary Jedi Master Yoda present</p>
+		<hr class="my-4">
+		<p class="text-center">"Ready are you? Push the button you must!" - Master Yoda</p>
+		<p class="lead text-center">
+			<a class="btn btn-primary btn-lg btn-outline-light" id="btn1" href="#" role="button" >Yoda Quotes</a>
+			<a class="btn btn-primary btn-lg btn-outline-light" id="btn2" href="#" role="button" >Wise Quotes</a>
+		</p>
+		<div class="container slidecontainer">
+			<div class="col-lg-12">
+				<input type="range" min="1" max="5" value="1" class="slider" id="myRange">
+				<p class="text-center">Quotes: <span id="demo"></span></p>
+			</div>
+			
+			<div class="text-center">
+			        <a href="#" id="quoteBtn" class="btn btn-primary btn-lg btn-outline-light" role="button">Generate you Must</a>
+			</div>
+			
+		</div>
+		
+	
+		
+	</div>
+		
+		<div class="container">
+			<div class="card col" id="content" >
+			<div id="insert" class="text-center typewriter" ></div>
+		  	</div>
+		</div>
+		
+    </header>
+	
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Javascript -->
+    <script src="js/script.js"></script>
+	
+
+  </body>
+
+</html>
